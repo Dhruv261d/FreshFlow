@@ -1,0 +1,25 @@
+backend/
+├── src/
+│   ├── config/         # Database and environment configurations 
+│   ├── controllers/    # Logic for Farmer, Driver, and Admin roles 
+│   ├── models/         # MongoDB Schemas (User, Order, Shipment) 
+│   ├── routes/         # API route definitions 
+│   ├── middleware/     # Auth (JWT) and error handling 
+│   ├── services/       # AI logic (Python bridge) and mathematical models 
+│   └── utils/          # Shelf-life decay and 3D packing algorithms 
+├── .env                # Environment variables (DB_URI, JWT_SECRET) 
+└── server.js           # Entry point with Socket.io initialization 
+
+
+
+backend/
+├── src/
+│   ├── config/         # Database and environment configurations 
+│   ├── controllers/    # Logic for Farmer, Driver, and Admin roles 
+│   ├── models/         # MongoDB Schemas (User, Order, Shipment) 
+│   ├── routes/         # API route definitions 
+│   ├── middleware/     # Auth (JWT) and error handling 
+│   ├── services/       # AI logic (Python bridge) and mathematical models 
+│   └── utils/          # Shelf-life decay and 3D packing algorithms 
+├── .env                # Environment variables (DB_URI, JWT_SECRET) 
+└── server.js           # Entry point with Socket.io initialization 
